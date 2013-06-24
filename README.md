@@ -3,6 +3,8 @@ Short-Feedback
 
 Get feedback from users on your website on any page/post using shortcode. No load on database either!
 
+Supports multiple files, you can have different feedback section for different pages.
+
 Requirements
 ------------
 
@@ -25,7 +27,9 @@ Configuration and Usage
 
 **Rename default.xml.sample as default.xml.**
 
-Give write permissions to the folder where the plugin files are present. Use the shortcode `[[feedback]]` on any Wordpress post/page to get a form where the user can enter the feedback.
+Give write permissions to the folder where the plugin files are present. Use the shortcode `[[feedback file="default.xml"]]` on any Wordpress post/page to get a form where the user can enter the feedback.
+
+Feedback can be stored on multiple files. Copy the default.xml.sample file with a different name and enter that filename in the shortcode. Example `[[feedback file="homepage.xml"]]`.
 
 The feedback can be checked in the feedback tab in admin dashboard of Wordpress.
 
