@@ -1,4 +1,4 @@
-Short-Feedback
+xml-feedback
 ==============
 
 Get feedback from users on your website on any page/post using shortcode. No load on database either!
